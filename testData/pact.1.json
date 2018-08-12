@@ -59,6 +59,34 @@
           "error": "Argh!!!"
         }
       }
+    },
+    {
+      "description": "a request for a list of books for a given year",
+      "providerState": "i have some books",
+      "request": {
+        "method": "GET",
+        "path": "/rest/books",
+        "query": "year=2016",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": [
+          {
+            "id": 8,
+            "title": "Alone on a Wide, Wide Sea",
+            "year": 2016,
+            "stars": 2,
+            "category": "sociology"
+          }
+        ]
+      }
     }
   ],
   "metadata": {

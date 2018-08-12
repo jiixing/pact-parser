@@ -1,0 +1,7 @@
+GET http://localhost:8080/rest/books?year=2016
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+

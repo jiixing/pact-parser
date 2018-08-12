@@ -3,3 +3,4 @@ src/coverageconfig.json
 node_modules/
 coverage/
 .vscode/
+.idea/
